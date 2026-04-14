@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="icon" href="image/logo_Step.ico" />
+    <link rel="stylesheet" href="dashBoard.css">
+</head>
+
+<body>
+
+    <!-- ===== MAIN CONTENT =====  -->
+    <main>
+        <div class="company-side">
+            <p>Company</p>
+            <a href="index.html" class="menu-item active">
+                <img src="image/dashboard_gray.svg" alt="Dashboard" width="20px" height="20px">
+                <span>Dash Board</span>
+            </a>
+
+            <a href="userProfile.html" class="menu-item">
+                <img src="image/account_gray.svg" alt="UserProfile" width="20px" height="20px">
+                <span>User Profile</span>
+            </a>
+
+            <a href="maps.html" class="menu-item">
+                <img src="image/map_gray.svg" alt="Maps" width="20px" height="20px">
+                <span>Maps</span>
+            </a>
+
+            <a href="notifications.html" class="menu-item">
+                <img src="image/notify_gray.svg" alt="Notifications" width="20px" height="20px">
+                <span>Notifications</span>
+            </a>
+
+            <a href="support.html" class="menu-item">
+                <img src="image/support_gray.svg" alt="Support" width="20px" height="20px">
+                <span>Supports</span>
+            </a>
+        </div>
+
+        <div class="dashboard-side">
+            <div class="dash-trayIcon">
+                <img class="" src="image/menu.png" alt="" width="20px" height="15px">
+                <p>Dashboard</p>
+            </div>
+
+            <!-- Row line one -->
+            <div class="grid">
+                <div class="row1">
+                    <div class="item">
+                        <img class="img-1" src="image/data_white.svg" alt="">
+                        <p>Used Space</p>
+                        <p>49/50 GB</p>
+                        <img class="img-2" src="image/alert.png" alt="">
+                        <p>Get more space...</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-1" src="image/shop_white.svg" alt="">
+                        <p>Revenue</p>
+                        <p>$ 34,245</p>
+                        <img class="img-2" src="image/calendar.png" alt="">
+                        <p>Last 24 hours</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-1" src="image/tag_white.svg" alt="">
+                        <p>Fixed Issues</p>
+                        <p>75</p>
+                        <img class="img-2" src="image/down.png" alt="">
+                        <p>Tracked from Github</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-1" src="image/paperplane_white.svg" alt="">
+                        <p>Followers</p>
+                        <p>+ 245</p>
+                        <img class="img-2" src="image/time.png" alt="">
+                        <p>Just updated</p>
+                    </div>
+                </div>
+
+                <!-- Row line two -->
+                <div class="row2">
+                    <div class="item">
+                        <img class="img-1" src="image/graphics.svg" alt="">
+                        <p>Daily Sales</p>
+                        <p>55% increase in today sales</p>
+                        <img class="img-2" src="image/time.png" alt="">
+                        <p>updated 4 minutes ago</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-1" src="image/graphics.svg" alt="">
+                        <p>Email Subscriptions</p>
+                        <p>Last Campaign Performance</p>
+                        <img class="img-2" src="image/time.png" alt="">
+                        <p>campaign sent 2 days ago</p>
+                    </div>
+                    <div class="item">
+                        <img class="img-1" src="image/graphics.svg" alt="">
+                        <p>Completed Tasks</p>
+                        <p>Last Campaign Performance</p>
+                        <img class="img-2" src="image/time.png" alt="">
+                        <p>campaign event 2 days ago</p>
+                    </div>
+                </div>
+
+                <!-- Row line three -->
+                <div class="task-container">
+                    <div class="task-card">
+                        <!-- HEADER -->
+                        <div class="task-header">
+                            <span class="title">Tasks:</span>
+                            <div class="group active">
+                                <img src="image/bug.svg">
+                                <span>Bugs</span>
+                            </div>
+                            <div class="group">
+                                <img src="image/web.svg">
+                                <span>Website</span>
+                            </div>
+                            <div class="group">
+                                <img src="image/cloud.svg">
+                                <span>Server</span>
+                            </div>
+                        </div>
+                        <!-- TASK LIST -->
+                        <div class="task-list">
+                            <div class="task-row">
+                                <input type="checkbox">
+                                <p>Sign contract for "What are conference organizers afraid of?"</p>
+                                <div class="actions">
+                                    <span class="edit"><img src="image/edit.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    <span class="delete"><img src="image/remove.png" alt="" width="20px"
+                                            height="20px"></span>
+                                </div>
+                            </div>
+                            <div class="task-row">
+                                <input type="checkbox">
+                                <p>Lines From Great Russian Literature? Or E-mails From My Boss?</p>
+                                <div class="actions">
+                                    <span class="edit"><img src="image/edit.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    <span class="delete"><img src="image/remove.png" alt="" width="20px"
+                                            height="20px"></span>
+                                </div>
+                            </div>
+                            <div class="task-row">
+                                <input type="checkbox">
+                                <p>Sign contract for "What are conference organizers afraid of?"</p>
+                                <div class="actions">
+                                    <span class="edit"><img src="image/edit.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    <span class="delete"><img src="image/remove.png" alt="" width="20px"
+                                            height="20px"></span>
+                                </div>
+                            </div>
+                            <div class="task-row">
+                                <input type="checkbox">
+                                <p>Sign contract for "What are conference organizers afraid of?"</p>
+                                <div class="actions">
+                                    <span class="edit"><img src="image/edit.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    <span class="delete"><img src="image/remove.png" alt="" width="20px"
+                                            height="20px"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <!-- HEADER -->
+                        <div class="employee-card">
+
+                            <!-- HEADER -->
+                            <div class="employee-header">
+                                <h3>Employees Stats</h3>
+                                <p>New employees on 19th September, 2019</p>
+                            </div>
+
+                            <!-- TABLE -->
+                            <table class="employee-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Salary</th>
+                                        <th>Country</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dakota Rice</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dakota Rice</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dakota Rice</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dakota Rice</td>
+                                        <td>$36.738</td>
+                                        <td>Niger</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ===== FOOTER =====  -->
+            <hr>
+            <footer class="footer">
+                <div class="footer-left">
+                    <a href="#">ABOUT</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">LICENSES</a>
+                </div>
+
+                <div class="footer-right">
+                    2019 - made with love
+                </div>
+            </footer>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
